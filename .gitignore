@@ -1,0 +1,10 @@
+# Data and trained weights stay in separate deliverables.
+data/
+checkpoints/
+*.pt
+# Local caches and incomplete source checkout are not for GitHub.
+__pycache__/
+*.pyc
+_incomplete_git_clone/
+# Duplicated downloaded source archives.
+*.zip

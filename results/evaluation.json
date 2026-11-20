@@ -1,0 +1,49 @@
+{
+  "checkpoint": "E:\\Datahiding-homework\\checkpoints\\best_valid_final_100k.pt",
+  "checkpoint_step": 425000,
+  "checkpoint_precision": "bf16",
+  "checkpoint_channels_last": true,
+  "split_seed": 20261119,
+  "user_acceptance_pe_limit": 0.18184,
+  "paper_table_ii_suni_train_suni_test_pe": 0.1023,
+  "meets_user_acceptance_pe_limit": true,
+  "confusion_layout": "rows=true [cover,stego], columns=predicted [cover,stego]",
+  "validation": {
+    "pairs": 1000,
+    "pe": 0.095,
+    "threshold": 0.5263427495956421,
+    "auc": 0.9745455
+  },
+  "test": {
+    "pairs": 5000,
+    "paper_min_pe": 0.095,
+    "auc": 0.9731156200000001,
+    "confusion_at_test_optimal_threshold": {
+      "matrix": [
+        [
+          4450,
+          550
+        ],
+        [
+          400,
+          4600
+        ]
+      ],
+      "pe": 0.095
+    },
+    "test_optimal_threshold": 0.3877483010292053,
+    "confusion_at_validation_threshold": {
+      "matrix": [
+        [
+          4628,
+          372
+        ],
+        [
+          631,
+          4369
+        ]
+      ],
+      "pe": 0.1003
+    }
+  }
+}

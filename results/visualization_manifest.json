@@ -1,0 +1,37 @@
+{
+  "generated_utc": "2026-11-20T01:54:49+00:00",
+  "source_script": "srnet-reproduction/report_visuals.py",
+  "source_script_sha256": "796beb263e422c61e28aaf068187e2296ddde20540d2eb4c40e4cb2fe5154c10",
+  "checkpoint": "checkpoints/best_valid_final_100k.pt",
+  "checkpoint_step": 425000,
+  "test_score_file": "results/test_scores.csv",
+  "test_images": 10000,
+  "test_auc": 0.9731156200000001,
+  "test_min_pe": 0.095,
+  "example_dataset": "BOSSbase_1.01",
+  "example_split": "boss_train",
+  "example_image_id": 1,
+  "example_changed_pixels": 5216,
+  "figures": {
+    "test_roc": [
+      "results/figures/test_roc.png",
+      "results/figures/test_roc.svg"
+    ],
+    "confusion_test_optimal": [
+      "results/figures/confusion_test_optimal.png",
+      "results/figures/confusion_test_optimal.svg"
+    ],
+    "confusion_validation_threshold": [
+      "results/figures/confusion_validation_threshold.png",
+      "results/figures/confusion_validation_threshold.svg"
+    ],
+    "resize_example": [
+      "results/figures/resize_example.png",
+      "results/figures/resize_example.svg"
+    ],
+    "embedding_example": [
+      "results/figures/embedding_example.png",
+      "results/figures/embedding_example.svg"
+    ]
+  }
+}

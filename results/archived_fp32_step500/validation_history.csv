@@ -1,0 +1,1 @@
+step,utc_time,valid_cross_entropy,valid_l2,valid_total_loss,valid_accuracy,valid_false_alarm_rate,valid_miss_rate,valid_pe_argmax,valid_min_pe,valid_auc,valid_optimal_threshold,valid_tn,valid_fp,valid_fn,valid_tp,evaluation_seconds,best_checkpoint_selected
